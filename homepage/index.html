@@ -19,7 +19,7 @@
 <body>
     <header>
         <img src="/images/veepay logo new.png" alt="">
-        <a href=""><button>Sign Up</button></a>
+        <a href="#input-div"><button>Sign Up</button></a>
     </header>
 
     <main>
@@ -35,11 +35,11 @@
             </article>
 
             <article>
-                <form id="form" action="" onsubmit="return checkEmail()">
+                <form id="form" action="#" onsubmit="return checkEmail()">
                     <label for="email">Sign up to find out when it's ready.</label>
                     <div id="input-div">
                         <input type="email" placeholder="Email Address" name="user-email" id="email">
-                        <button id="button" type="submit">Sign Up</button>
+                        <input id="button" type="submit" value="Sign Up">
                     </div>
                     <div id="error-message">
                         <img src="/images/exclamation.png" alt="" style="width: 1.5rem;">

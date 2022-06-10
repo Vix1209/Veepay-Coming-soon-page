@@ -1,16 +1,17 @@
 
 let checkEmail = () => {
-    form.action = "";
+    form.action = "#";
     const email = document.getElementById("email");
     const emailValue = email.value;
     const errorBox = document.getElementById("error-message");
 
     if (emailValue == "") {
-        setTimeout(hideAlert, 1000)
+        errorBox.style.display = "flex";
+        email.focus();
+        setTimeout(hideAlert, 2000)
         function hideAlert() {
             errorBox.style.display = "none";
         }
-        errorBox.style.display = "flex";
         return;
     } else {
         form.action = "/thank you page/thankyou.html";
