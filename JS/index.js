@@ -14,6 +14,6 @@ let checkEmail = () => {
         }
         return;
     } else {
-        form.action = "/thank you page/thankyou.html";
+        form.action = "./thankyou.html";
     }
 }
