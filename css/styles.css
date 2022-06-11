@@ -36,12 +36,13 @@ main{
 }
 
 main section{
-    padding: 0 5rem 0 7rem;
+    padding: 0 0 0 7rem;
    
 }
 
 main img{
     width: 100%;
+    height: 90%;
 }
 
 main h2{
@@ -59,7 +60,7 @@ main h1{
 
 main p{
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 4rem;
 }
 
@@ -164,16 +165,13 @@ main #button a{
 }
 
 
-
-@media (max-width: 1241px) {
-    main img{
-        height: 100%;
-    }
-}
-
 @media (max-width: 1024px) {
     main section{
         padding: 0 3rem 0 5rem;
+    }
+
+    main img{
+        height: 100%;
     }
 }
 
@@ -184,6 +182,10 @@ main #button a{
 
     main h2{
         font-size: 2rem;
+    }
+
+    main p{
+        font-size: 1.2rem;
     }
 
     main section{
@@ -226,6 +228,8 @@ main #button a{
 
     main{
         text-align: center;
+        display: block;
+        padding-bottom: 3rem;
     }
 
     main section{
