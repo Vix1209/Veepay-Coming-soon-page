@@ -62,6 +62,7 @@ main p {
     display: block;
     font-size: 1.4rem;
     margin-bottom: 4rem;
+    line-height: 30px;
 }
 
 main form label {
