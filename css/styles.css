@@ -65,6 +65,15 @@ main p {
     line-height: 30px;
 }
 
+main p a{
+    color: orange;
+    text-decoration: none;
+}
+
+main p a:hover{
+    color: rgb(239, 171, 46);
+}
+
 main form label {
     display: block;
     text-align: end;
