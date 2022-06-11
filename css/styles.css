@@ -122,13 +122,31 @@ main #button a{
 #error-message{
     background-color: rgb(247, 212, 212);
     color: black;
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 8px;
     border: 2px solid rgb(135, 3, 3);
     display: none;
-    position: absolute;
+    position: fixed;
     align-items: center;
-    width: 32.6rem;
+    right: 1rem;
+    top: 2rem;
+    animation-duration: 1s;
+    animation-name: slideIn;
+}
+
+@keyframes slideIn {
+    from{
+        top: 0;
+    }
+
+    to {
+        top: 2rem;
+    }
+}
+
+#error-message img{
+    width: 2rem;
+    margin: 0;
 }
 
 #error-message p{
@@ -186,6 +204,15 @@ main #button a{
         height: auto;
         margin-top: 9rem;
     }
+
+    main section{
+        padding: 0 1rem 0 2rem;
+    }
+
+    #error-message img{
+        width: 1rem;
+        margin: 0;
+    }
 }
 
 @media (max-width: 500px) {
@@ -201,8 +228,16 @@ main #button a{
         text-align: center;
     }
 
+    main section{
+        padding: 0 1rem;
+    }
+
     main img{
         display: none;
+    }
+
+    #error-message img{
+        display: block;
     }
 }
 
