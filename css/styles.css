@@ -273,6 +273,10 @@ footer img {
     #error-message img {
         display: block;
     }
+
+    footer p{
+        font-size: 0.8rem;
+    }
 }
 
 @media (max-width:370px) {
