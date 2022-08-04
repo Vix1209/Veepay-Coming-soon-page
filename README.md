@@ -1,0 +1,1 @@
+A simple newsletter created using python and django framework. Collects inputed email from users, saves into a database, and simultaneously sends an email to the user aknowledging your interest to sign up for the Newsletter.
